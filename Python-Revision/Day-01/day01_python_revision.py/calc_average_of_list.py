@@ -10,3 +10,17 @@ for i in list:
 avg = sum/len(list)
 
 print("average of a list ", avg)
+
+#  doing it using fucntion 
+
+def avg(list):
+    sum = 0
+
+    for i in list:
+        sum += i
+
+    av = sum/len(list)
+
+    return av
+
+print(avg(list))
